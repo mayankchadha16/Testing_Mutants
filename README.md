@@ -15,8 +15,8 @@
 2. Run the following command in the terminal:
 
    ```bash
-   mut.py --target numAnalysis --unit-test tester -m --runner pytest
-3. View the mutation testing results in the terminal.
+   mut.py --target numAnalysis --unit-test tester -m --runner pytest --report-html ./
+3. View the mutation testing results in he same folder by just opening `index.html`.
 
 ## PIT (Java)
 
