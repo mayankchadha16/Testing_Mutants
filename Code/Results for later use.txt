@@ -1,0 +1,22 @@
+Python:
+
+Mutation score [223.12731 s]: 79.1%
+   - all: 182
+   - killed: 127 (69.8%)
+   - survived: 38 (20.9%)
+   - incompetent: 0 (0.0%)
+   - timeout: 17 (9.3%)
+
+
+Java:
+>> Line Coverage (for mutated classes only): 163/173 (94%)
+>> Generated 204 mutations Killed 163 (80%)
+>> Mutations with no coverage 11. Test strength 84%
+>> Ran 346 tests (1.7 tests per mutation)
+Enhanced functionality available at https://www.arcmutate.com/
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:21 min
+[INFO] Finished at: 2023-11-20T18:40:38+05:30
+[INFO] ------------------------------------------------------------------------

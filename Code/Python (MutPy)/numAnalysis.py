@@ -175,9 +175,9 @@ def isPerfectSquare(num):
     return False
 
 
-# Returns true if n is
-# a square free number,
-# else returns false.
+# A number is said to be square-free if no prime factor divides 
+# it more than once, i.e., the largest power of a prime 
+# factor that divides n is one.
 def isSquareFree(num):
 
     if num % 2 == 0:

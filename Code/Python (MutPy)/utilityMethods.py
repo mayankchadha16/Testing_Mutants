@@ -31,7 +31,7 @@ def power(x, y):
     return x * power(x, y // 2) * power(x, y // 2)
 
 
-# Function to calculate order of the number
+# Function to calculate number of digits in the number
 def order(x):
     n = 0
 
@@ -64,8 +64,6 @@ def custom_sqrt(x):
 def isPower(a):
     if (a == 1):
         return True
-
-    p = int(custom_sqrt(a)) + 1
 
     for i in range(2, a, 1):
         val = log(a) / log(i)
