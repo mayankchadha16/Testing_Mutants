@@ -119,15 +119,15 @@ class IsArmstrongTest(TestCase):
     def test_nonarmstrong_number(self):
         self.assertEqual(isArmstrong(1253), False)
 
-    # Test case for a single-digit Armstrong number (5)
+    # Test case for a single-digit Armstrong number 
     def test_single_digit_armstrong_number(self):
         self.assertEqual(isArmstrong(5), True)
 
-    # Test case for a larger Armstrong number (1634)
+    # Test case for a larger Armstrong number 
     def test_larger_armstrong_number(self):
         self.assertEqual(isArmstrong(1634), True)
 
-    # Test case for a non-Armstrong number (123)
+    # Test case for a non-Armstrong number 
     def test_another_nonarmstrong_number(self):
         self.assertEqual(isArmstrong(123), False)
 
@@ -195,46 +195,46 @@ class IsPowerfulTest(TestCase):
     def test_nonpowerful_number(self):
         self.assertEqual(isPowerful(12), False)
 
-    # Test case for the smallest powerful number (1)
+    # Test case for the smallest powerful number 
     def test_smallest_powerful_number(self):
         self.assertEqual(isPowerful(1), True)
 
-    # Test case for a non-powerful number (30)
+    # Test case for a non-powerful number 
     def test_another_nonpowerful_number(self):
         self.assertEqual(isPowerful(30), False)
 
 
 class IsAchillesNumberTest(TestCase):
-    # Test case for an Achilles number (72)
+    # Test case for an Achilles number 
     def test_achilles_number(self):
         self.assertEqual(isAchillesNumber(72), True)
 
-    # Test case for a non-Achilles number (16)
+    # Test case for a non-Achilles number 
     def test_nonachilles_number(self):
         self.assertEqual(isAchillesNumber(16), False)
 
-    # Test case for another Achilles number (180)
+    # Test case for another Achilles number 
     def test_another_achilles_number(self):
         self.assertEqual(isAchillesNumber(392), True)
 
-    # Test case for a non-Achilles number (25)
+    # Test case for a non-Achilles number 
     def test_another_nonachilles_number(self):
         self.assertEqual(isAchillesNumber(25), False)
 
 class IsStirlingTest(TestCase):
-    # Test case for a valid input (n=5, k=2)
+    # Test case for a valid input 
     def test_valid_input(self):
         self.assertEqual(isStirling(5, 2), 15)
 
-    # Test case for n <= 0 (n=-1, k=2)
+    # Test case for n <= 0 
     def test_negative_n(self):
         self.assertEqual(isStirling(-1, 2), 1)
 
-    # Test case for n != 0 and n == k (n=3, k=3)
+    # Test case for n != 0 and n == k 
     def test_n_equals_k(self):
         self.assertEqual(isStirling(3, 3), 1)
 
-    # Test case for n < k (n=2, k=5)
+    # Test case for n < k 
     def test_n_less_than_k(self):
         self.assertEqual(isStirling(2, 5), 0)
 

@@ -1,5 +1,6 @@
 Python:
 
+Unit
 Mutation score [223.12731 s]: 79.1%
    - all: 182
    - killed: 127 (69.8%)
@@ -7,8 +8,18 @@ Mutation score [223.12731 s]: 79.1%
    - incompetent: 0 (0.0%)
    - timeout: 17 (9.3%)
 
+Integration
+[*] Mutation score [24.71351 s]: 66.7%
+   - all: 15
+   - killed: 6 (40.0%)
+   - survived: 5 (33.3%)
+   - incompetent: 0 (0.0%)
+   - timeout: 4 (26.7%)
+
 
 Java:
+
+Unit
 >> Line Coverage (for mutated classes only): 163/173 (94%)
 >> Generated 204 mutations Killed 163 (80%)
 >> Mutations with no coverage 11. Test strength 84%
@@ -20,3 +31,5 @@ Enhanced functionality available at https://www.arcmutate.com/
 [INFO] Total time:  02:21 min
 [INFO] Finished at: 2023-11-20T18:40:38+05:30
 [INFO] ------------------------------------------------------------------------
+
+Integration
