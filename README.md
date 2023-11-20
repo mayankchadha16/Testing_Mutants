@@ -1,5 +1,14 @@
 # Testing_Mutants
 
+## Prerequisites
+* To install MutPy (for Mutation testing in Python) you need to run:
+  
+   ```bash
+   pip install mutpy
+   ```
+* Use this [link](https://www.digitalocean.com/community/tutorials/install-maven-linux-ubuntu) to install Maven (for Mutation testing in Java)
+
+
 ## MutPy (Python)
 
 1. Navigate to the `Code/Python (MutPy)` directory.
