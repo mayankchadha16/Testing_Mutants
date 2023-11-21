@@ -14,16 +14,16 @@
 1. Navigate to the `Code/Python (MutPy)` directory.
 2. Run the following command in the terminal:
 
-   ### Unit Mutation
+   <!-- ### Unit Mutation -->
 
    ```bash
-   mut.py --target numAnalysis --unit-test tester -m --runner pytest --report-html Unit/
+   mut.py --target numAnalysis --unit-test tester -m --runner pytest --report-html Output/
     ```
-   ### Integration Mutation
+   <!-- ### Integration Mutation
 
    ```bash
-   mut.py --target numAnalysisIntegration --unit-test testerIntegration -m --runner pytest --report-html Integration/
-   ```
+   mut.py --target numAnalysisIntegration --unit-test testerIntegration -m --runner pytest --report-html Integration/ -->
+   <!-- ``` -->
 4. View the mutation testing results in the corresponding folder by just opening `index.html`.
 
 ## PIT (Java)

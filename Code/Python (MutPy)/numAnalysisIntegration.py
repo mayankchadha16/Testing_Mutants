@@ -1,4 +1,5 @@
-from utilityMethods import *
+from utilityMethodsIntegration import *
+
 
 # A number is called happy if it leads to 1 after a sequence of steps wherein each step number
 # is replaced by the sum of squares of its digit that is if
@@ -14,7 +15,7 @@ def isHappynumber(num):
 
         ###############################################################
         # original
-        # slow = numSquareSum(slow) 
+        # slow = numSquareSum(slow)
         slow = numSquareSum(fast)
         # Integration Parameter Variable Replacement (IVPR): Each
         # parameter in a method call is replaced by each other variable
@@ -34,7 +35,7 @@ def isHappynumber(num):
 
     else:
         return False
-    
+
 
 # Given a number x, determine whether the given number is Armstrong number or not.
 #  A positive integer of n digits is called an Armstrong number of order n (order is number of digits) if.
@@ -69,6 +70,23 @@ def isArmstrong(num):
         temp //= 10
 
     if (sum_of_powers == num):
+        return True
+
+    else:
+        return False
+
+# Narcissistic Number is a number that is the sum of its own digits each raised to the power of the number of digits
+def isNarcissistic(num):
+
+    num_digits = order(num)
+    original_num = num
+    total_sum = 0
+
+    while (original_num):
+        total_sum = total_sum + power(original_num % 10, num_digits)
+        original_num = original_num // 10
+
+    if (num == total_sum):
         return True
 
     else:

@@ -9,12 +9,7 @@ Mutation score [223.12731 s]: 79.1%
    - timeout: 17 (9.3%)
 
 Integration
-[*] Mutation score [24.71351 s]: 66.7%
-   - all: 15
-   - killed: 6 (40.0%)
-   - survived: 5 (33.3%)
-   - incompetent: 0 (0.0%)
-   - timeout: 4 (26.7%)
+See code wit comments
 
 
 Java:
