@@ -11,7 +11,7 @@
 
 ## MutPy (Python)
 
-1. Navigate to the `Code/Python (MutPy)` directory.
+1. Navigate to the `Code/Python (MutPy)/Unit` directory.
 2. Run the following command in the terminal:
 
    <!-- ### Unit Mutation -->
