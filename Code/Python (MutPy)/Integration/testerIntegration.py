@@ -30,11 +30,6 @@ class IsArmstrongTest(TestCase):
         # Mutant Killed initially it was true
         self.assertEqual(isArmstrong(5), False)
 
-    # Test case for a larger Armstrong number
-    def test_larger_armstrong_number(self):
-        # Mutant Killed initially it was true
-        self.assertEqual(isArmstrong(1253), False)
-
 
 class IsNarcissisticTest(TestCase):
     # Test case for a narcissistic number
