@@ -11,7 +11,7 @@
 
 ## MutPy (Python)
 
-1. Navigate to the `Code/Python (MutPy)/Unit` directory.
+1. Navigate to the `Code/Python (MutPy)/Unit` directory (MutPy only supports unit testing not integration for integration testing we have manually created mutations).
 2. Run the following command in the terminal:
 
    <!-- ### Unit Mutation -->
@@ -28,7 +28,7 @@
 
 ## PIT (Java)
 
-1. Navigate to the `Code/Java (PIT)/my-app` directory.
+1. Navigate to the `Code/Java (PIT)/` directory choose either `Unit` or `Integration`.
 2. To run the test cases, use:
 
     ```bash

@@ -28,3 +28,14 @@ Enhanced functionality available at https://www.arcmutate.com/
 [INFO] ------------------------------------------------------------------------
 
 Integration
+>> Line Coverage (for mutated classes only): 209/223 (94%)
+>> Generated 595 mutations Killed 421 (71%)
+>> Mutations with no coverage 29. Test strength 74%
+>> Ran 1177 tests (1.98 tests per mutation)
+Enhanced functionality available at https://www.arcmutate.com/
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  05:28 min
+[INFO] Finished at: 2023-11-22T12:02:13+05:30
+[INFO] ------------------------------------------------------------------------

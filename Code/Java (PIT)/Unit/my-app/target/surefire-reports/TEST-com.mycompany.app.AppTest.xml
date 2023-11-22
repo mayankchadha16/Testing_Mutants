@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.263" tests="55" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/mnt/e/IIITB/st/my-app/target/test-classes:/mnt/e/IIITB/st/my-app/target/classes:/home/mayank1609/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/mayank1609/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/mnt/e/IIITB/st/my-app/target/surefire/surefirebooter2794053196118719700.jar /mnt/e/IIITB/st/my-app/target/surefire 2023-11-21T11-49-33_282-jvmRun1 surefire7332861427683302681tmp surefire_09511851772693280917tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/mnt/e/IIITB/st/my-app/target/test-classes:/mnt/e/IIITB/st/my-app/target/classes:/home/mayank1609/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/mayank1609/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/mayank1609"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/mnt/e/IIITB/st/my-app"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/mnt/e/IIITB/st/my-app/target/surefire/surefirebooter2794053196118719700.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.20.1+1-post-Ubuntu-0ubuntu120.04"/>
+    <property name="user.name" value="mayank1609"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.133.1-microsoft-standard-WSL2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/mayank1609/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.20.1"/>
+    <property name="user.dir" value="/mnt/e/IIITB/st/my-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.20.1+1-post-Ubuntu-0ubuntu120.04"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="test_nonsquare_free_number" classname="com.mycompany.app.AppTest" time="0.04"/>
+  <testcase name="testStirling" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_happy_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testAchillesNumber" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_larger_triangular_number" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="testSmallestPowerfulNumber" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testAnotherNonPowerfulNumber" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testEulerianCase1" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testEulerianCase2" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_another_nontriangular_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_larger_happy_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testNegativeN" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_another_nonarmstrong_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testAnotherNonAchillesNumber" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testNEqualsK" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_larger_narcissistic_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_larger_square_free_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_armstrong_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_larger_harshad_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_nonpalindrome_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_larger_perfect_square" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_smallprime" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_nonharshad_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_nonperfect_number" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="test_nonprime" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testAnotherAchillesNumber" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testNonPowerfulNumber" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_smallest_perfect_square" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_nonperfect_square" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_larger_armstrong_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_edge_case" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_smallest_narcissistic_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_narcissistic_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_another_perfect_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_single_digit_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_invalid" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_smallest_square_free_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_edge_case_harshad" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_nonnarcissistic_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_square_free_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_larger_palindrome_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_nonarmstrong_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testNonAchillesNumber" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_another_nonpalindrome_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_single_digit_armstrong_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testNLessThanK" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_triangular_number_0" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_harshad_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_perfect_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_nontriangular_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_perfect_square" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_edge_case_happy" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testPowerfulNumber" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_nonhappy_number" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="test_prime" classname="com.mycompany.app.AppTest" time="0"/>
+</testsuite>
