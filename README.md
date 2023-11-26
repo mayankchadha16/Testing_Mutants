@@ -1,4 +1,4 @@
-# Testing_Mutants
+# Instructions to Run the Codes
 
 ## Prerequisites
 * To install MutPy (for Mutation testing in Python) you need to run:
@@ -14,17 +14,10 @@
 1. Navigate to the `Code/Python (MutPy)/Unit` directory (MutPy only supports unit testing not integration for integration testing we have manually created mutations).
 2. Run the following command in the terminal:
 
-   <!-- ### Unit Mutation -->
-
    ```bash
    mut.py --target numAnalysis --unit-test tester -m --runner pytest --report-html Output/
     ```
-   <!-- ### Integration Mutation
-
-   ```bash
-   mut.py --target numAnalysisIntegration --unit-test testerIntegration -m --runner pytest --report-html Integration/ -->
-   <!-- ``` -->
-4. View the mutation testing results in the corresponding folder by just opening `index.html`.
+3. View the mutation testing results in the corresponding folder by just opening `index.html`.
 
 ## PIT (Java)
 
