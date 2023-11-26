@@ -21,14 +21,20 @@
 
 ## PIT (Java)
 
-1. Navigate to the `Code/Java (PIT)/` directory choose either `Unit` or `Integration`.
-2. To run the test cases, use:
+1. Create project using 
+    ```bash
+    mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+    cd my-app
+    ```
+
+2. Navigate to the `Code/Java (PIT)/` directory choose either `Unit` or `Integration` and copy `pom.xml`, `App.java` and `AppTest.java`.
+3. To run the test cases, use:
 
     ```bash
     mvn package
     ```
-3. Run the following command for mutation testing:
+4. Run the following command for mutation testing:
     ```bash
     mvn test-compile org.pitest:pitest-maven:mutationCoverage
     ```
-4. View the mutation testing results in `target/pit-reports/index.html`.
+5. View the mutation testing results in `target/pit-reports/index.html`.
